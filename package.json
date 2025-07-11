@@ -1,0 +1,43 @@
+{
+  "name": "folder-structure-tracker",
+  "version": "1.0.0",
+  "description": "Save folder structure as Markdown",
+  "main": "./out/extension.js",
+  "publisher": "evening-elephant",
+  "engines": {
+      "vscode": "^1.85.0"
+  },
+  "categories": [
+      "Other"
+  ],
+  "activationEvents": [
+      "onCommand:folderStructureTracker.saveFolderStructure"
+  ],
+  "contributes": {
+      "commands": [
+          {
+              "command": "folderStructureTracker.saveFolderStructure",
+              "title": "Save Folder Structure"
+          }
+      ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Evening-Elephant/folderstructure"
+  },
+  "icon": "https://raw.githubusercontent.com/Evening-Elephant/folderstructure/refs/heads/main/images/FolderStructure.png",
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "launch": "code --extensionDevelopmentPath=${PWD}",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+      "@types/node": "^18.x",
+      "@types/vscode": "^1.85.0",
+      "typescript": "^5.3.2"
+  }
+}
