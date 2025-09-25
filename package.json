@@ -1,5 +1,5 @@
 {
-  "name": "folder-structure-tracker",
+  "name": "folder-structure",
   "version": "1.0.0",
   "description": "Save folder structure as Markdown",
   "main": "./out/extension.js",
@@ -11,21 +11,21 @@
       "Other"
   ],
   "activationEvents": [
-      "onCommand:folderStructureTracker.saveFolderStructure"
+      "onCommand:folderStructure.saveFolderStructure"
   ],
   "contributes": {
       "commands": [
           {
-              "command": "folderStructureTracker.saveFolderStructure",
+              "command": "folderStructure.saveFolderStructure",
               "title": "Save Folder Structure"
           }
       ]
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Evening-Elephant/folderstructure"
+    "url": "https://github.com/k-s-pavan-kumar/FolderStructure"
   },
-  "icon": "https://raw.githubusercontent.com/Evening-Elephant/folderstructure/refs/heads/main/images/FolderStructure.png",
+  "icon": "images/FolderStructure.png",
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "launch": "code --extensionDevelopmentPath=${PWD}",
