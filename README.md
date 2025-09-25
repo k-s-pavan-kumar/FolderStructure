@@ -1,8 +1,8 @@
-# Folder Structure Tracker
+# Folder Structure
 
 ## Overview
 
-Folder Structure Tracker is a Visual Studio Code extension that helps you quickly generate a clean, readable Markdown representation of your project's folder structure.
+Folder Structure is a Visual Studio Code extension that helps you quickly generate a clean, readable Markdown representation of your project's folder structure.
 
 ## Features
 
@@ -51,7 +51,7 @@ Currently, the extension uses a predefined list of excluded folders. Future vers
 
 1. Open Visual Studio Code
 2. Go to Extensions (Ctrl+Shift+X)
-3. Search for "Folder Structure Tracker"
+3. Search for "Folder Structure"
 4. Click Install
 
 ## Feedback
