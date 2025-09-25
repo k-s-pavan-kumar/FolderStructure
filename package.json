@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Save folder structure as Markdown",
   "main": "./out/extension.js",
-  "publisher": "evening-elephant",
+  "publisher": "kspavankumar",
   "engines": {
       "vscode": "^1.85.0"
   },
